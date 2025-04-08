@@ -1,0 +1,24 @@
+[project]
+name = "gumeva-final"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "juan p",email = "juan.gutierrez03@est.uexternado.edu.co"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas (>=2.2.3,<3.0.0)",
+    "numpy (>=2.2.4,<3.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "fastapi (>=0.115.12,<0.116.0)",
+    "uvicorn (>=0.34.0,<0.35.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)",
+    "streamlit (>=1.44.1,<2.0.0)",
+    "ucimlrepo (>=0.0.7,<0.0.8)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
